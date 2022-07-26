@@ -1,3 +1,21 @@
+Logical Flow
+ 
+User --> /greet
+    In this project we are going to use the values provided by the user in the URL to render content. First we have created a folder
+    called greet which will be used for adding a greeting functionality. Please note there's no index file in the greet folder so
+    visiting it will result in a 404 error.
+
+User --> /greet/[name]
+    Next we have created the /greet/[name].tsx file to greet the user.
+    Page loads --> Get Serverside Props 
+        By using the getServerSideProps function we can access the name provided by the user in the URL. We can pass the name to the
+        Next.js page by using props.
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

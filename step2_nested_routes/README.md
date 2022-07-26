@@ -1,3 +1,23 @@
+Logical Flow
+ 
+User --> /posts
+    In this project we have created a posts folder that will contain pages for blog posts. First we created the
+    posts/index.tsx file that will load when the user visits the /posts route.
+
+User --> /posts/[date]
+    Next we created a folder called [date] in the posts folder. By adding the [] to the folder name we are able to use the given
+    value from the URL as a dynamic date. Please note there is no index page in the posts/[date] folder so visiting this URL will
+    result in a 404 error.
+
+User --> /posts/[date]/[slug]
+    Next we created a file in the posts/[date] folder called [slug].tsx. By adding the [] to the file name we are able to use the given
+    value from the URL as a dynamic post. Now if the user visits this URL the value for [date] and [slug] can be replaced by any value 
+    and the user will be displayed the [slug] page. Please note the URL in the address bar will show different values but the page will 
+    remain the same.
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

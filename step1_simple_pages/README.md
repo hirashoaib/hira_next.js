@@ -1,3 +1,21 @@
+Logical Flow
+ 
+User --> Index
+    The Next.js boilerplate comes with the pages/index.tsx page already created. This page is the root page of the application.
+    To create another page with a valid path and route in the application we can simply create a new page in the pages folder.
+    In this example we have created the pages/contact.tsx page that can be seen by visiting the /contact route.
+
+User --> Contact
+    By visiting the /contact route the user can see the contact page.
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
