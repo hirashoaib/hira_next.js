@@ -1,3 +1,31 @@
+Logical Flow
+ 
+User --> /
+    In this project we have created a Navbar component to help users easily navigate betweeen the home, about, and contact pages.
+    In the components/Navbar.tsx component we have used the Link component to create links between the pages.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
